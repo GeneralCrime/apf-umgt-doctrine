@@ -131,8 +131,8 @@ class User implements UserInterface
     /**
      * @ORM\ManyToMany(targetEntity=AuthToken::class, inversedBy="users")
      * @ORM\JoinTable(name="ass_user2authtoken",
-     *      joinColumns={@ORM\JoinColumn(name="Source_UserID", referencedColumnName="UserID")}
-     *      inverseJoinColumns={@ORM\JoinColumn(name="Target_AuthTokenID", referencedColumnName="AuthTokenID")},
+     *      joinColumns={@ORM\JoinColumn(name="Source_UserID", referencedColumnName="UserID")},
+     *      inverseJoinColumns={@ORM\JoinColumn(name="Target_AuthTokenID", referencedColumnName="AuthTokenID")}
      *     )
      */
     private $authtokens;
