@@ -1,5 +1,6 @@
 {
   "name": "generalcrime/apf_umgt_docrine_entities",
+  "minimum-stability": "stable",
   "version": "1.0",
   "license": "GIT",
   "authors": [
