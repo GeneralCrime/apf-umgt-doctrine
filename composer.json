@@ -1,0 +1,27 @@
+{
+  "name": "generalcrime/apf_umgt_docrine_entities",
+  "version": "1.0",
+  "license": "GIT",
+  "authors": [
+    {
+      "name": "Christian Merz",
+      "email": "ich@general-crime.de"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "7.2.33"
+    },
+    "sort-packages": true
+  },
+  "require": {
+    "doctrine/orm": "^2.12",
+    "doctrine/doctrine-bundle": "^2.6",
+    "symfony/security-bundle": "5.4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "GeneralCrime\\Apf\\Umgt\\Doctrine\\": "src/"
+    }
+  }
+}
